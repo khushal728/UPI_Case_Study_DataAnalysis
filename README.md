@@ -102,5 +102,30 @@ ORDER BY 1;
 
 - ML Code Snippet (Isolation Forest)
 
+### ML Code Snippet (Isolation Forest)
+```py
+from sklearn.preprocessing import StandardScaler
+from sklearn.ensemble import IsolationForest
+from sklearn.pipeline import Pipeline
 
+features = ["amount_inr", "hour_of_day", "day_of_week"]
+X = df[features]
+
+pipeline = Pipeline([
+    ("scaler", StandardScaler()),
+    ("model", IsolationForest(
+        n_estimators=200,
+        contamination=0.03,
+        random_state=42
+    ))
+])
+
+pipeline.fit(X)
+
+df["risk_flag"] = pipeline.predict(X)
+df["risk_flag"] = df["risk_flag"].map({1: "Normal", -1: "High Risk"})
+df["anomaly_score"] = pipeline.named_steps["model"].decision_function(
+    pipeline.named_steps["scaler"].transform(X)
+)
+```
 
