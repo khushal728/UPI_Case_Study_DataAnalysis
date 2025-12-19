@@ -129,3 +129,28 @@ df["anomaly_score"] = pipeline.named_steps["model"].decision_function(
 )
 ```
 
+## 📈 Power BI Dashboards
+
+### 1️⃣ Executive Overview
+
+- 250K+ transactions, ₹300M+ value
+
+- ~95% success rate, ~5% failure rate
+
+- Android dominates UPI usage
+
+- Grocery & Food are top merchant categories
+
+![ Screenshot ](https://github.com/khushal728/UPI_Case_Study_DataAnalysis/issues/1#issue-3744609945) 
+
+### 2️⃣ Transaction Trends (Time Series)
+
+- Stable MoM growth in volume & value
+
+- Peak usage during 6–9 PM
+
+- Android leads across all peak hours
+
+- Predictable and healthy usage patterns
+
+![ Screenshot ](https://github.com/khushal728/UPI_Case_Study_DataAnalysis/issues/2#issue-3744614862)
