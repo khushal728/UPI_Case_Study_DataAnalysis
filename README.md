@@ -207,8 +207,35 @@ df["anomaly_score"] = pipeline.named_steps["model"].decision_function(
 ![ Screenshot ](https://github.com/khushal728/UPI_Case_Study_DataAnalysis/blob/main/UPI%20Dashboards/Risk%20Analysis%20Page.png)
 
 
+## 🛠️ Skills & Tools Used
+
+- SQL (PostgreSQL)
+
+- Python (Pandas, NumPy, Scikit-learn, Seaborn)
+
+- Machine Learning (Isolation Forest)
+
+- Power BI (DAX, Data Modeling, Interactive Dashboards)
+
+- Data Analytics & Risk Analysis
+
+- Business Storytelling & Visualization
 
 
+## 🎯 Outcomes & Business Impact
+
+- Delivered a production-style UPI analytics system
+
+- Identified high-risk transactions using ML
+
+- Enabled executive-level risk monitoring
+
+- Demonstrated end-to-end analytics ownership (DB → ML → BI)
+
+## 🧩 Conclusion
+
+This project showcases how data engineering, analytics, and machine learning can work together to solve real-world fintech problems.
+By combining SQL-driven data modeling, ML-based risk detection, and Power BI storytelling, the system delivers insights that are actionable, scalable, and business-ready.
 
 
 
