@@ -183,16 +183,28 @@ df["anomaly_score"] = pipeline.named_steps["model"].decision_function(
 
 ### 5️⃣ Financial Summary
 
-Low-value transactions dominate volume
+-Low-value transactions dominate volume
 
-High-value transactions are stable and mostly successful
+- High-value transactions are stable and mostly successful
 
-SBI, HDFC, ICICI lead in transaction value
+- SBI, HDFC, ICICI lead in transaction value
 
-Strong MTD performance (20K+ txns, ₹27M+)
+- Strong MTD performance (20K+ txns, ₹27M+)
+
+![ Screenshot ](https://github.com/khushal728/UPI_Case_Study_DataAnalysis/blob/main/UPI%20Dashboards/Financial%20Summary%20%20Page.png)
 
 
+### 6️⃣ Risk Analysis (ML-Driven)
 
+- ~3% transactions flagged as High Risk (~7K+)
+
+- Average anomaly score: ~0.14
+
+- Risk is behavior-driven, not just amount-driven
+
+- No sustained fraud trend detected over time
+
+![ Screenshot ](https://github.com/khushal728/UPI_Case_Study_DataAnalysis/blob/main/UPI%20Dashboards/Risk%20Analysis%20Page.png)
 
 
 
