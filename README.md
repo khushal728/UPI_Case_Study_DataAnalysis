@@ -141,7 +141,7 @@ df["anomaly_score"] = pipeline.named_steps["model"].decision_function(
 
 - Grocery & Food are top merchant categories
 
-![ Screenshot ](https://github.com/khushal728/UPI_Case_Study_DataAnalysis/issues/1#issue-3744609945) 
+![ Screenshot ](https://github.com/khushal728/UPI_Case_Study_DataAnalysis/blob/main/UPI%20Dashboards/Executive%20Overview%20Page.png) 
 
 ### 2️⃣ Transaction Trends (Time Series)
 
@@ -153,4 +153,54 @@ df["anomaly_score"] = pipeline.named_steps["model"].decision_function(
 
 - Predictable and healthy usage patterns
 
-![ Screenshot ](https://github.com/khushal728/UPI_Case_Study_DataAnalysis/issues/2#issue-3744614862)
+![ Screenshot ](https://github.com/khushal728/UPI_Case_Study_DataAnalysis/blob/main/UPI%20Dashboards/Transaction%20Trends%20Page.png)
+
+### 3️⃣ Success & Failure Analysis
+
+- ~237K successful transactions
+
+- Failures are concentrated in specific banks & categories
+
+- Utilities & Entertainment show slightly higher failures
+
+- Actionable operational insights
+
+![ Screenshot ](https://github.com/khushal728/UPI_Case_Study_DataAnalysis/blob/main/UPI%20Dashboards/Success%20%26%20Failure%20Analysis%20Page.png)
+
+
+### 4️⃣ User Behavior & Demographics
+
+- Average sender & receiver age: ~34 years
+
+- Maharashtra is the top sender state
+
+- SBI leads in transaction volume
+
+- High-value transactions are largely successful
+
+![ Screenshot ](https://github.com/khushal728/UPI_Case_Study_DataAnalysis/blob/main/UPI%20Dashboards/User%20Behavior%20%26%20Demographics%20%20PAge.png)
+
+
+### 5️⃣ Financial Summary
+
+Low-value transactions dominate volume
+
+High-value transactions are stable and mostly successful
+
+SBI, HDFC, ICICI lead in transaction value
+
+Strong MTD performance (20K+ txns, ₹27M+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
