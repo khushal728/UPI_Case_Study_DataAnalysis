@@ -238,6 +238,14 @@ This project showcases how data engineering, analytics, and machine learning can
 By combining SQL-driven data modeling, ML-based risk detection, and Power BI storytelling, the system delivers insights that are actionable, scalable, and business-ready.
 
 
+## 🙋‍♂️ Author
+
+**Khushal Joshi**  
+[LinkedIn](https://www.linkedin.com/in/khushal-joshi728/)  
+[GitHub](https://github.com/khushal728)
+
+---
+
 
 
 
