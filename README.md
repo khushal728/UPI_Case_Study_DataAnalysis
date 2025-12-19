@@ -183,7 +183,7 @@ df["anomaly_score"] = pipeline.named_steps["model"].decision_function(
 
 ### 5️⃣ Financial Summary
 
--Low-value transactions dominate volume
+- Low-value transactions dominate volume
 
 - High-value transactions are stable and mostly successful
 
