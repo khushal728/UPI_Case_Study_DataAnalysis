@@ -1,6 +1,6 @@
 # 📊 UPI Transaction Analytics & Risk Detection Dashboard
 
-An **end-to-end data analytics and machine learning project** focused on analyzing large-scale UPI transactions, identifying usage patterns, and detecting risky transactions using ML — with final insights delivered through interactive **Power BI dashboards**.
+An **end-to-end data analytics and machine learning project** focused on analyzing large-scale UPI transactions, identifying usage patterns, and detecting risky transactions using ML with final insights delivered through interactive **Power BI dashboards**.
 
 ---
 
