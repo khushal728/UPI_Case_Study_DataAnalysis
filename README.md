@@ -131,6 +131,8 @@ df["anomaly_score"] = pipeline.named_steps["model"].decision_function(
 
 ## 📈 Power BI Dashboards
 
+![ Video ](https://github.com/khushal728/UPI_Case_Study_DataAnalysis/blob/main/UPI%20Dashboard%20Recording.mp4) 
+
 ### 1️⃣ Executive Overview
 
 - 250K+ transactions, ₹300M+ value
